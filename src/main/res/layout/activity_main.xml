@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_tieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đọc Báo"
+        android:textColor="@color/custom_title"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="60dp"  />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="101dp"
+        android:gravity="center"
+        android:text="Đọc báo mỗi ngày, để biết thêm nhiều thông tin."
+        android:textColor="@color/custom_title"
+        android:textSize="24sp" />
+
+</RelativeLayout>
